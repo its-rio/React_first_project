@@ -3,10 +3,10 @@ import MovieCard from "./MovieCard";
 import SearchIcon from "./search.svg";
 import './App.css';
 //
-//old:  7176b63b
-//http://www.omdbapi.com/?i=tt3896198&apikey=7176b63b
+//old:  de30b47
+//http://www.omdbapi.com?apikey=de30b47
 
-const API_URL = "http://www.omdbapi.com?apikey=ecc8fc0b"
+const API_URL = "http://www.omdbapi.com?apikey=de30b47"
 const App = () => {
 
     const [searchTerm, setSearchTerm] = useState("");
